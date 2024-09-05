@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import User from './Components/User';
 import Users from './Components/Users';
 import EditUser from './Components/EditUser';
-
+import './App.css'
 const App = () => {
   return (
     <div>
