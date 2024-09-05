@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const User = () => {
   const { id } = useParams();
-  const [user, setUser] = useState({name:"dkfjalsdkf"});
+  const [user, setUser] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
